@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body class="page-body">
+<div class="page-body">
+    <form id="forgot-password-form" class="forgot-password-form">
+        <input class="forgot-password-form-input" type="text" id="nid" name="nid" placeholder="National ID"
+        required minlength="10" maxlength="12" pattern="\d{11}">
+        <input class="forgot-password-form-input" type="text" id="email" name="email" placeholder="Email"
+        required minlength="12" maxlength="50">
+        <button type="submit" class="btn" id="resetPasswordButton">Send Recovery Email</button>
+    </form>
+</div>
+<div>
+    <img id="logo" src="../images/Logo.png" alt="Logo">
+</div>
+<script src="js/script.js" type="module"></script>
+</body>
+</html>
